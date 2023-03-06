@@ -1,7 +1,7 @@
 import { View, Text, SafeAreaView } from 'react-native'
 import React from 'react'
 import HeaderTaps from '../../Components/Header/HeaderTaps'
-import styles from './style'
+import SearchBar from '../../Components/Search/SearchBar'
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
           padding: 15
         }}>
         <HeaderTaps />
+        <SearchBar />
       </View>
     </SafeAreaView>
   )
