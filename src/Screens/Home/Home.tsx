@@ -5,9 +5,19 @@ import styles from './style'
 
 export default function Home() {
   return (
-    <View style={{flex: 1,
-        marginTop:20}}>
-      <HeaderTaps />
-    </View>
+    <SafeAreaView 
+      style={{
+        borderColor:"#eee", 
+        flex: 1, 
+        marginTop:20
+      }}>
+      <View 
+        style={{
+          borderColor:"#fff",
+          padding: 15
+        }}>
+        <HeaderTaps />
+      </View>
+    </SafeAreaView>
   )
 }
